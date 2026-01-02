@@ -1,3 +1,13 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.6/dist/JsBarcode.all.min.js"></script>
+<script
+src="https://unpkg.com/bwip-js/dist/bwip-js-min.js"></script>
+<script src="https://unpkg.com/@zxing/library@latest"></script>
+<script src="https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
+
+
 <script>
 let zxingReader = new ZXing.BrowserMultiFormatReader();
 let cameraStream = null;
